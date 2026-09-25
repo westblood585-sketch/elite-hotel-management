@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-12-30T11:27:51.121Z",
+  "data": {
+    "users": [
+      {
+        "_id": "68a5876a4d838d05b1ac0831",
+        "fullName": "fawaz v",
+        "email": "fawazchemmad@gmail.com",
+        "phoneNumber": "9999999999",
+        "role": "admin",
+        "isVerified": true,
+        "isApproved": "approved",
+        "createdAt": "2025-08-20T08:25:43.640Z",
+        "updatedAt": "2025-12-22T09:12:46.893Z",
+        "__v": 0,
+        "avatar": {
+          "publicId": "user/avatars/1764071315052-99a9d810-e351-437e-b7c0-eb1f7137d995-20250712-IMG_3518.jpeg.jpg",
+          "url": "https://elite-hotel-app-media-storage.s3.us-east-1.amazonaws.com/user/avatars/1764071315052-99a9d810-e351-437e-b7c0-eb1f7137d995-20250712-IMG_3518.jpeg.jpg"
+        }
+      },
+      {
+        "_id": "6943dca25456f25c5d3393cf",
+        "fullName": "fawazv",
+        "email": "fawaz1chemmad@gmail.com",
+        "phoneNumber": "1234567897",
+        "role": "receptionist",
+        "isVerified": true,
+        "isApproved": "pending",
+        "avatar": {
+          "publicId": "user/avatars/1766338574892-c389c739-10b1-454a-86c9-e77c12e23a90-avatar.jpg",
+          "url": "https://elite-hotel-app-media-storage.s3.us-east-1.amazonaws.com/user/avatars/1766338574892-c389c739-10b1-454a-86c9-e77c12e23a90-avatar.jpg"
+        },
+        "createdAt": "2025-12-18T10:18:14.997Z",
+        "updatedAt": "2025-12-30T10:10:24.806Z",
+        "__v": 0
+      }
+    ],
+    "settings": [
+      {
+        "_id": "6943bfb3c1a9b069840b1b91",
+        "key": "hotelName",
+        "__v": 0,
+        "category": "general",
+        "createdAt": "2025-12-18T08:47:47.655Z",
+        "isPublic": false,
+        "updatedAt": "2025-12-18T08:47:47.655Z",
+        "value": ""
+      },
+      {
+        "_id": "6943ccd9c1a9b069840b1b95",
+        "key": "notifications.email",
+        "__v": 0,
+        "category": "notifications",
+        "createdAt": "2025-12-18T09:43:53.605Z",
+        "isPublic": false,
+        "updatedAt": "2025-12-18T09:43:53.605Z",
+        "value": true
+      },
+      {
+        "_id": "6943ccdbc1a9b069840b1b96",
+        "key": "notifications.sms",
+        "__v": 0,
+        "category": "notifications",
+        "createdAt": "2025-12-18T09:43:55.445Z",
+        "isPublic": false,
+        "updatedAt": "2025-12-18T09:43:55.445Z",
+        "value": true
+      },
+      {
+        "_id": "694547d7c1a9b069840b1c98",
+        "key": "security.2fa",
+        "__v": 0,
+        "category": "security",
+        "createdAt": "2025-12-19T12:40:53.969Z",
+        "isPublic": false,
+        "updatedAt": "2025-12-19T12:53:52.917Z",
+        "value": true
+      }
+    ]
+  }
+}

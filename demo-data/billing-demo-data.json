@@ -1,0 +1,618 @@
+[
+  {
+    "paymentId": "pay_1A2B3C4D5E6F7G8H",
+    "reservationId": "res_2024_001",
+    "guestId": "guest_001",
+    "guestContact": {
+      "email": "john.smith@example.com",
+      "phoneNumber": "+1-555-0101"
+    },
+    "amount": 450.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 450.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-15T10:30:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 450.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-15T10:32:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-15T10:30:00Z",
+    "updatedAt": "2024-11-15T10:32:00Z"
+  },
+  {
+    "paymentId": "pay_2B3C4D5E6F7G8H9I",
+    "reservationId": "res_2024_002",
+    "guestId": "guest_002",
+    "guestContact": {
+      "email": "sarah.johnson@example.com",
+      "phoneNumber": "+1-555-0102"
+    },
+    "amount": 680.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 680.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-16T14:20:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 680.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-16T14:22:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-16T14:20:00Z",
+    "updatedAt": "2024-11-16T14:22:00Z"
+  },
+  {
+    "paymentId": "pay_3C4D5E6F7G8H9I0J",
+    "reservationId": "res_2024_003",
+    "guestId": "guest_003",
+    "guestContact": {
+      "email": "michael.brown@example.com",
+      "phoneNumber": "+1-555-0103"
+    },
+    "amount": 320.00,
+    "currency": "USD",
+    "status": "pending",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 320.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-20T09:15:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-20T09:15:00Z",
+    "updatedAt": "2024-11-20T09:15:00Z"
+  },
+  {
+    "paymentId": "pay_4D5E6F7G8H9I0J1K",
+    "reservationId": "res_2024_004",
+    "guestId": "guest_004",
+    "guestContact": {
+      "email": "emily.davis@example.com",
+      "phoneNumber": "+1-555-0104"
+    },
+    "amount": 890.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 890.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-18T16:45:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 890.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-18T16:47:00Z"
+      },
+      {
+        "type": "charge",
+        "amount": 50.00,
+        "note": "Room service charge",
+        "createdAt": "2024-11-19T12:30:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-18T16:45:00Z",
+    "updatedAt": "2024-11-19T12:30:00Z"
+  },
+  {
+    "paymentId": "pay_5E6F7G8H9I0J1K2L",
+    "reservationId": "res_2024_005",
+    "guestId": "guest_005",
+    "guestContact": {
+      "email": "david.wilson@example.com",
+      "phoneNumber": "+1-555-0105"
+    },
+    "amount": 550.00,
+    "currency": "USD",
+    "status": "refunded",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 550.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-12T11:00:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 550.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-12T11:02:00Z"
+      },
+      {
+        "type": "refund",
+        "amount": -550.00,
+        "note": "Payment refunded (100%)",
+        "createdAt": "2024-11-13T10:00:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-12T11:00:00Z",
+    "updatedAt": "2024-11-13T10:00:00Z"
+  },
+  {
+    "paymentId": "pay_6F7G8H9I0J1K2L3M",
+    "reservationId": "res_2024_006",
+    "guestId": "guest_006",
+    "guestContact": {
+      "email": "jessica.martinez@example.com",
+      "phoneNumber": "+1-555-0106"
+    },
+    "amount": 720.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 720.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-22T13:30:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 720.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-22T13:32:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-22T13:30:00Z",
+    "updatedAt": "2024-11-22T13:32:00Z"
+  },
+  {
+    "paymentId": "pay_7G8H9I0J1K2L3M4N",
+    "reservationId": "res_2024_007",
+    "guestId": "guest_007",
+    "guestContact": {
+      "email": "robert.anderson@example.com",
+      "phoneNumber": "+1-555-0107"
+    },
+    "amount": 410.00,
+    "currency": "USD",
+    "status": "failed",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 410.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-25T08:45:00Z"
+      },
+      {
+        "type": "failure",
+        "amount": 410.00,
+        "note": "Payment failed",
+        "createdAt": "2024-11-25T08:47:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-25T08:45:00Z",
+    "updatedAt": "2024-11-25T08:47:00Z"
+  },
+  {
+    "paymentId": "pay_8H9I0J1K2L3M4N5O",
+    "reservationId": "res_2024_008",
+    "guestId": "guest_008",
+    "guestContact": {
+      "email": "amanda.taylor@example.com",
+      "phoneNumber": "+1-555-0108"
+    },
+    "amount": 1250.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 1250.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-19T15:20:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 1250.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-19T15:22:00Z"
+      },
+      {
+        "type": "charge",
+        "amount": 75.00,
+        "note": "Minibar charge",
+        "createdAt": "2024-11-20T18:00:00Z"
+      },
+      {
+        "type": "charge",
+        "amount": 120.00,
+        "note": "Spa services",
+        "createdAt": "2024-11-21T14:30:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-19T15:20:00Z",
+    "updatedAt": "2024-11-21T14:30:00Z"
+  },
+  {
+    "paymentId": "pay_9I0J1K2L3M4N5O6P",
+    "reservationId": "res_2024_009",
+    "guestId": "guest_009",
+    "guestContact": {
+      "email": "christopher.thomas@example.com",
+      "phoneNumber": "+1-555-0109"
+    },
+    "amount": 590.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 590.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-23T10:10:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 590.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-23T10:12:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-23T10:10:00Z",
+    "updatedAt": "2024-11-23T10:12:00Z"
+  },
+  {
+    "paymentId": "pay_0J1K2L3M4N5O6P7Q",
+    "reservationId": "res_2024_010",
+    "guestId": "guest_010",
+    "guestContact": {
+      "email": "melissa.jackson@example.com",
+      "phoneNumber": "+1-555-0110"
+    },
+    "amount": 380.00,
+    "currency": "USD",
+    "status": "pending",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 380.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-28T12:00:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-28T12:00:00Z",
+    "updatedAt": "2024-11-28T12:00:00Z"
+  },
+  {
+    "paymentId": "pay_1K2L3M4N5O6P7Q8R",
+    "reservationId": "res_2024_011",
+    "guestId": "guest_011",
+    "guestContact": {
+      "email": "daniel.white@example.com",
+      "phoneNumber": "+1-555-0111"
+    },
+    "amount": 960.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 960.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-17T14:30:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 960.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-17T14:32:00Z"
+      },
+      {
+        "type": "credit",
+        "amount": -50.00,
+        "note": "Loyalty discount",
+        "createdAt": "2024-11-17T14:35:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-17T14:30:00Z",
+    "updatedAt": "2024-11-17T14:35:00Z"
+  },
+  {
+    "paymentId": "pay_2L3M4N5O6P7Q8R9S",
+    "reservationId": "res_2024_012",
+    "guestId": "guest_012",
+    "guestContact": {
+      "email": "laura.harris@example.com",
+      "phoneNumber": "+1-555-0112"
+    },
+    "amount": 510.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 510.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-21T09:45:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 510.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-21T09:47:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-21T09:45:00Z",
+    "updatedAt": "2024-11-21T09:47:00Z"
+  },
+  {
+    "paymentId": "pay_3M4N5O6P7Q8R9S0T",
+    "reservationId": "res_2024_013",
+    "guestId": "guest_013",
+    "guestContact": {
+      "email": "matthew.clark@example.com",
+      "phoneNumber": "+1-555-0113"
+    },
+    "amount": 1450.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 1450.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-14T16:00:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 1450.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-14T16:02:00Z"
+      },
+      {
+        "type": "charge",
+        "amount": 200.00,
+        "note": "Late checkout fee",
+        "createdAt": "2024-11-15T15:00:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-14T16:00:00Z",
+    "updatedAt": "2024-11-15T15:00:00Z"
+  },
+  {
+    "paymentId": "pay_4N5O6P7Q8R9S0T1U",
+    "reservationId": "res_2024_014",
+    "guestId": "guest_014",
+    "guestContact": {
+      "email": "ashley.rodriguez@example.com",
+      "phoneNumber": "+1-555-0114"
+    },
+    "amount": 640.00,
+    "currency": "USD",
+    "status": "refunded",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 640.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-10T11:30:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 640.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-10T11:32:00Z"
+      },
+      {
+        "type": "refund",
+        "amount": -320.00,
+        "note": "Payment refunded (50%)",
+        "createdAt": "2024-11-11T09:00:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-10T11:30:00Z",
+    "updatedAt": "2024-11-11T09:00:00Z"
+  },
+  {
+    "paymentId": "pay_5O6P7Q8R9S0T1U2V",
+    "reservationId": "res_2024_015",
+    "guestId": "guest_015",
+    "guestContact": {
+      "email": "kevin.lewis@example.com",
+      "phoneNumber": "+1-555-0115"
+    },
+    "amount": 780.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 780.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-26T13:15:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 780.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-26T13:17:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-26T13:15:00Z",
+    "updatedAt": "2024-11-26T13:17:00Z"
+  },
+  {
+    "paymentId": "pay_6P7Q8R9S0T1U2V3W",
+    "reservationId": "res_2024_016",
+    "guestId": "guest_016",
+    "guestContact": {
+      "email": "stephanie.lee@example.com",
+      "phoneNumber": "+1-555-0116"
+    },
+    "amount": 430.00,
+    "currency": "USD",
+    "status": "pending",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 430.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-29T10:30:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-29T10:30:00Z",
+    "updatedAt": "2024-11-29T10:30:00Z"
+  },
+  {
+    "paymentId": "pay_7Q8R9S0T1U2V3W4X",
+    "reservationId": "res_2024_017",
+    "guestId": "guest_017",
+    "guestContact": {
+      "email": "brian.walker@example.com",
+      "phoneNumber": "+1-555-0117"
+    },
+    "amount": 1120.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 1120.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-24T15:45:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 1120.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-24T15:47:00Z"
+      },
+      {
+        "type": "charge",
+        "amount": 95.00,
+        "note": "Restaurant charge",
+        "createdAt": "2024-11-25T19:30:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-24T15:45:00Z",
+    "updatedAt": "2024-11-25T19:30:00Z"
+  },
+  {
+    "paymentId": "pay_8R9S0T1U2V3W4X5Y",
+    "reservationId": "res_2024_018",
+    "guestId": "guest_018",
+    "guestContact": {
+      "email": "nicole.hall@example.com",
+      "phoneNumber": "+1-555-0118"
+    },
+    "amount": 520.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 520.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-27T11:20:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 520.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-27T11:22:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-27T11:20:00Z",
+    "updatedAt": "2024-11-27T11:22:00Z"
+  },
+  {
+    "paymentId": "pay_9S0T1U2V3W4X5Y6Z",
+    "reservationId": "res_2024_019",
+    "guestId": "guest_019",
+    "guestContact": {
+      "email": "ryan.allen@example.com",
+      "phoneNumber": "+1-555-0119"
+    },
+    "amount": 850.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 850.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-13T14:00:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 850.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-13T14:02:00Z"
+      },
+      {
+        "type": "adjustment",
+        "amount": -30.00,
+        "note": "Billing adjustment - room issue compensation",
+        "createdAt": "2024-11-14T10:00:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-13T14:00:00Z",
+    "updatedAt": "2024-11-14T10:00:00Z"
+  },
+  {
+    "paymentId": "pay_0T1U2V3W4X5Y6Z7A",
+    "reservationId": "res_2024_020",
+    "guestId": "guest_020",
+    "guestContact": {
+      "email": "jennifer.young@example.com",
+      "phoneNumber": "+1-555-0120"
+    },
+    "amount": 690.00,
+    "currency": "USD",
+    "status": "paid",
+    "ledger": [
+      {
+        "type": "initiated",
+        "amount": 690.00,
+        "note": "Payment initiated",
+        "createdAt": "2024-11-30T09:00:00Z"
+      },
+      {
+        "type": "payment",
+        "amount": 690.00,
+        "note": "Payment succeeded",
+        "createdAt": "2024-11-30T09:02:00Z"
+      }
+    ],
+    "archived": false,
+    "createdAt": "2024-11-30T09:00:00Z",
+    "updatedAt": "2024-11-30T09:02:00Z"
+  }
+]

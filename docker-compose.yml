@@ -1,0 +1,125 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  gateway:
+    image: fawaz482/elite-gateway:latest
+    env_file:
+      - ./backend/api-gateway/.env
+    container_name: api-gateway
+    ports:
+      - '4000:4000'
+    depends_on:
+      - rabbitmq
+      - auth-service
+      - room-service
+      - user-service
+      - guest-service
+      - reservation-service
+      - notification-service
+      - communication-service
+      - billing-service
+      - payment-service
+      - housekeeping-service
+
+  auth-service:
+    image: fawaz482/elite-auth:latest
+    env_file:
+      - ./backend/services/authService/.env
+    container_name: elite-auth
+    ports:
+      - '4001:4001'
+    depends_on:
+      - rabbitmq
+
+  room-service:
+    image: fawaz482/elite-room:latest
+    env_file:
+      - ./backend/services/roomService/.env
+    container_name: elite-room
+    ports:
+      - '4003:4003'
+    depends_on:
+      - rabbitmq
+
+  user-service:
+    image: fawaz482/elite-user:latest
+    env_file:
+      - ./backend/services/userService/.env
+    container_name: elite-user
+    ports:
+      - '4002:4002'
+    depends_on:
+      - rabbitmq
+
+  guest-service:
+    image: fawaz482/elite-guest:latest
+    env_file:
+      - ./backend/services/guestService/.env
+    container_name: elite-guest
+    ports:
+      - '4004:4004'
+    depends_on:
+      - rabbitmq
+
+  reservation-service:
+    image: fawaz482/elite-reservation:latest
+    env_file:
+      - ./backend/services/reservationService/.env
+    container_name: elite-reservation
+    ports:
+      - '4005:4005'
+    depends_on:
+      - rabbitmq
+
+  notification-service:
+    image: fawaz482/elite-notification:latest
+    env_file:
+      - ./backend/services/notificationService/.env
+    container_name: elite-notification
+    depends_on:
+      - rabbitmq
+    # no ports exposed because it's only a RabbitMQ consumer
+
+  communication-service:
+    image: fawaz482/elite-communication:latest
+    env_file:
+      - ./backend/services/communicationService/.env
+    container_name: elite-communication
+    ports:
+      - '4009:4009'
+    depends_on:
+      - rabbitmq
+
+  billing-service:
+    image: fawaz482/elite-billing:latest
+    env_file:
+      - ./backend/services/billingService/.env
+    container_name: elite-billing
+    depends_on:
+      - rabbitmq
+    # No ports exposed - background consumer only
+
+  payment-service:
+    image: fawaz482/elite-payment:latest
+    env_file:
+      - ./backend/services/paymentService/.env
+    container_name: elite-payment
+    ports:
+      - '4006:4006'
+    depends_on:
+      - rabbitmq
+
+  housekeeping-service:
+    image: fawaz482/elite-housekeeping:latest
+    env_file:
+      - ./backend/services/houseKeepingService/.env
+    container_name: elite-housekeeping
+    ports:
+      - '4008:4008'
+    depends_on:
+      - rabbitmq

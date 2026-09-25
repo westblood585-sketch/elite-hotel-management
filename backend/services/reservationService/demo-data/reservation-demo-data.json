@@ -1,0 +1,450 @@
+[
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c01"
+    },
+    "code": "RSV-20241201-A1B2",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d01"
+    },
+    "guestContact": {
+      "email": "john.smith@example.com",
+      "phoneNumber": "+1-555-0101"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e01"
+    },
+    "checkIn": {
+      "$date": "2024-12-05T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-08T11:00:00.000Z"
+    },
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "status": "Confirmed",
+    "source": "Online",
+    "notes": "Early check-in requested if available",
+    "currency": "USD",
+    "baseRate": 150.00,
+    "taxes": 45.00,
+    "fees": 15.00,
+    "totalAmount": 630.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Stripe",
+    "paymentIntentId": "pi_3QK1A2B3C4D5E6F7",
+    "paymentCaptured": true,
+    "createdAt": {
+      "$date": "2024-11-28T10:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-28T10:35:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c02"
+    },
+    "code": "RSV-20241202-C3D4",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d02"
+    },
+    "guestContact": {
+      "email": "sarah.johnson@example.com",
+      "phoneNumber": "+1-555-0102"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e02"
+    },
+    "checkIn": {
+      "$date": "2024-12-10T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-15T11:00:00.000Z"
+    },
+    "nights": 5,
+    "adults": 2,
+    "children": 1,
+    "status": "PendingPayment",
+    "source": "Online",
+    "notes": "Honeymoon package - need king bed",
+    "currency": "USD",
+    "baseRate": 200.00,
+    "taxes": 100.00,
+    "fees": 25.00,
+    "totalAmount": 1125.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Razorpay",
+    "paymentIntentId": "order_NxYzAbCdEfGhIj",
+    "paymentCaptured": false,
+    "holdExpiresAt": {
+      "$date": "2024-12-03T20:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-03T19:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-03T19:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c03"
+    },
+    "code": "RSV-20241125-E5F6",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d03"
+    },
+    "guestContact": {
+      "email": "michael.brown@example.com",
+      "phoneNumber": "+1-555-0103"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e03"
+    },
+    "checkIn": {
+      "$date": "2024-11-28T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-02T11:00:00.000Z"
+    },
+    "nights": 4,
+    "adults": 1,
+    "children": 0,
+    "status": "CheckedIn",
+    "source": "FrontDesk",
+    "notes": "Business traveler - needs workspace and high-speed WiFi",
+    "currency": "USD",
+    "baseRate": 180.00,
+    "taxes": 72.00,
+    "fees": 20.00,
+    "totalAmount": 812.00,
+    "requiresPrepayment": false,
+    "createdBy": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8f01"
+    },
+    "checkedInAt": {
+      "$date": "2024-11-28T15:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-25T09:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-28T15:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c04"
+    },
+    "code": "RSV-20241120-G7H8",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d04"
+    },
+    "guestContact": {
+      "email": "emily.davis@example.com",
+      "phoneNumber": "+1-555-0104"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e04"
+    },
+    "checkIn": {
+      "$date": "2024-11-22T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-11-25T11:00:00.000Z"
+    },
+    "nights": 3,
+    "adults": 2,
+    "children": 2,
+    "status": "CheckedOut",
+    "source": "OTA",
+    "notes": "Family vacation - requested connecting rooms",
+    "currency": "USD",
+    "baseRate": 220.00,
+    "taxes": 66.00,
+    "fees": 30.00,
+    "totalAmount": 756.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Stripe",
+    "paymentIntentId": "pi_3QJ9X8Y7Z6A5B4C3",
+    "paymentCaptured": true,
+    "checkedInAt": {
+      "$date": "2024-11-22T14:15:00.000Z"
+    },
+    "checkedOutAt": {
+      "$date": "2024-11-25T10:45:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-20T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-25T10:45:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c05"
+    },
+    "code": "RSV-20241203-I9J0",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d05"
+    },
+    "guestContact": {
+      "email": "david.wilson@example.com",
+      "phoneNumber": "+1-555-0105"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e05"
+    },
+    "checkIn": {
+      "$date": "2024-12-15T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-20T11:00:00.000Z"
+    },
+    "nights": 5,
+    "adults": 3,
+    "children": 0,
+    "status": "Confirmed",
+    "source": "FrontDesk",
+    "notes": "Corporate group booking - need 3 single beds",
+    "currency": "USD",
+    "baseRate": 250.00,
+    "taxes": 125.00,
+    "fees": 35.00,
+    "totalAmount": 1410.00,
+    "requiresPrepayment": false,
+    "createdBy": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8f02"
+    },
+    "createdAt": {
+      "$date": "2024-12-03T11:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-03T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c06"
+    },
+    "code": "RSV-20241118-K1L2",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d06"
+    },
+    "guestContact": {
+      "email": "jennifer.martinez@example.com",
+      "phoneNumber": "+1-555-0106"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e06"
+    },
+    "checkIn": {
+      "$date": "2024-11-20T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-11-22T11:00:00.000Z"
+    },
+    "nights": 2,
+    "adults": 1,
+    "children": 0,
+    "status": "Cancelled",
+    "source": "Online",
+    "notes": "Weekend getaway",
+    "currency": "USD",
+    "baseRate": 175.00,
+    "taxes": 35.00,
+    "fees": 15.00,
+    "totalAmount": 400.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Stripe",
+    "paymentIntentId": "pi_3QI5M4N3O2P1Q0R9",
+    "paymentCaptured": false,
+    "cancelledAt": {
+      "$date": "2024-11-19T16:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-18T14:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-19T16:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c07"
+    },
+    "code": "RSV-20241201-M3N4",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d07"
+    },
+    "guestContact": {
+      "email": "robert.anderson@example.com",
+      "phoneNumber": "+1-555-0107"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e07"
+    },
+    "checkIn": {
+      "$date": "2024-12-08T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-12T11:00:00.000Z"
+    },
+    "nights": 4,
+    "adults": 2,
+    "children": 1,
+    "status": "Confirmed",
+    "source": "Online",
+    "notes": "Anniversary celebration - requested champagne and flowers",
+    "currency": "USD",
+    "baseRate": 280.00,
+    "taxes": 112.00,
+    "fees": 40.00,
+    "totalAmount": 1272.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Razorpay",
+    "paymentIntentId": "order_PqRsTuVwXyZaBc",
+    "paymentCaptured": true,
+    "createdAt": {
+      "$date": "2024-12-01T09:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-01T09:05:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c08"
+    },
+    "code": "RSV-20241130-O5P6",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d08"
+    },
+    "guestContact": {
+      "email": "lisa.taylor@example.com",
+      "phoneNumber": "+1-555-0108"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e08"
+    },
+    "checkIn": {
+      "$date": "2024-12-06T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-07T11:00:00.000Z"
+    },
+    "nights": 1,
+    "adults": 1,
+    "children": 0,
+    "status": "Confirmed",
+    "source": "FrontDesk",
+    "notes": "Last-minute booking - late arrival expected",
+    "currency": "USD",
+    "baseRate": 160.00,
+    "taxes": 16.00,
+    "fees": 10.00,
+    "totalAmount": 186.00,
+    "requiresPrepayment": false,
+    "createdBy": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8f01"
+    },
+    "createdAt": {
+      "$date": "2024-11-30T18:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-30T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c09"
+    },
+    "code": "RSV-20241128-Q7R8",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d09"
+    },
+    "guestContact": {
+      "email": "thomas.moore@example.com",
+      "phoneNumber": "+1-555-0109"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e09"
+    },
+    "checkIn": {
+      "$date": "2024-12-01T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-05T11:00:00.000Z"
+    },
+    "nights": 4,
+    "adults": 2,
+    "children": 0,
+    "status": "CheckedIn",
+    "source": "OTA",
+    "notes": "Extended stay for conference attendees",
+    "currency": "USD",
+    "baseRate": 190.00,
+    "taxes": 76.00,
+    "fees": 25.00,
+    "totalAmount": 861.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Stripe",
+    "paymentIntentId": "pi_3QK7D8E9F0G1H2I3",
+    "paymentCaptured": true,
+    "checkedInAt": {
+      "$date": "2024-12-01T14:20:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-28T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-01T14:20:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674f1a1b2c3d4e5f6a7b8c10"
+    },
+    "code": "RSV-20241202-S9T0",
+    "guestId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b8d10"
+    },
+    "guestContact": {
+      "email": "amanda.garcia@example.com",
+      "phoneNumber": "+1-555-0110"
+    },
+    "roomId": {
+      "$oid": "674e1a1b2c3d4e5f6a7b9e10"
+    },
+    "checkIn": {
+      "$date": "2024-12-20T14:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-27T11:00:00.000Z"
+    },
+    "nights": 7,
+    "adults": 2,
+    "children": 2,
+    "status": "Confirmed",
+    "source": "Online",
+    "notes": "Holiday vacation - requested crib for infant and extra towels",
+    "currency": "USD",
+    "baseRate": 240.00,
+    "taxes": 168.00,
+    "fees": 50.00,
+    "totalAmount": 1898.00,
+    "requiresPrepayment": true,
+    "paymentProvider": "Razorpay",
+    "paymentIntentId": "order_DeFgHiJkLmNoPq",
+    "paymentCaptured": true,
+    "createdAt": {
+      "$date": "2024-12-02T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-02T10:05:00.000Z"
+    }
+  }
+]
