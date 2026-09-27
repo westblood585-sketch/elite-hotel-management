@@ -1,0 +1,68 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "actions": "Actions",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "view": "Voir",
+    "close": "Fermer",
+    "back": "Retour",
+    "submit": "Soumettre",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "housekeeping": {
+    "title": "Ménage",
+    "tasks": "Tâches",
+    "analytics": "Analytique",
+    "newTask": "Nouvelle Tâche",
+    "assignTask": "Assigner Tâche",
+    "inspectTask": "Inspecter Tâche",
+    "status": {
+      "pending": "En Attente",
+      "inProgress": "En Cours",
+      "completed": "Terminé",
+      "verified": "Vérifié"
+    },
+    "priority": {
+      "low": "Basse",
+      "normal": "Normale",
+      "high": "Haute",
+      "urgent": "Urgente"
+    },
+    "columns": {
+      "room": "Chambre",
+      "type": "Type",
+      "status": "Statut",
+      "priority": "Priorité",
+      "assignedTo": "Assigné À",
+      "dueDate": "Date d'Échéance"
+    },
+    "tabs": {
+      "list": "Vue Liste",
+      "kanban": "Tableau Kanban",
+      "analytics": "Analytique"
+    },
+    "modals": {
+      "taskDetails": "Détails de la Tâche",
+      "inspection": "Inspection de Tâche",
+      "uploadPhotos": "Télécharger Photos"
+    }
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "rooms": "Chambres",
+    "reservations": "Réservations",
+    "guests": "Clients",
+    "housekeeping": "Ménage",
+    "billing": "Facturation",
+    "payments": "Paiements",
+    "users": "Utilisateurs",
+    "settings": "Paramètres"
+  }
+}

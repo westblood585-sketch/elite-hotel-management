@@ -1,0 +1,68 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "actions": "Acciones",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "submit": "Enviar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "housekeeping": {
+    "title": "Limpieza",
+    "tasks": "Tareas",
+    "analytics": "Analítica",
+    "newTask": "Nueva Tarea",
+    "assignTask": "Asignar Tarea",
+    "inspectTask": "Inspeccionar Tarea",
+    "status": {
+      "pending": "Pendiente",
+      "inProgress": "En Progreso",
+      "completed": "Completado",
+      "verified": "Verificado"
+    },
+    "priority": {
+      "low": "Baja",
+      "normal": "Normal",
+      "high": "Alta",
+      "urgent": "Urgente"
+    },
+    "columns": {
+      "room": "Habitación",
+      "type": "Tipo",
+      "status": "Estado",
+      "priority": "Prioridad",
+      "assignedTo": "Asignado A",
+      "dueDate": "Fecha Vencimiento"
+    },
+    "tabs": {
+      "list": "Vista de Lista",
+      "kanban": "Tablero Kanban",
+      "analytics": "Analítica"
+    },
+    "modals": {
+      "taskDetails": "Detalles de la Tarea",
+      "inspection": "Inspección de Tarea",
+      "uploadPhotos": "Subir Fotos"
+    }
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "rooms": "Habitaciones",
+    "reservations": "Reservas",
+    "guests": "Huéspedes",
+    "housekeeping": "Limpieza",
+    "billing": "Facturación",
+    "payments": "Pagos",
+    "users": "Usuarios",
+    "settings": "Configuración"
+  }
+}

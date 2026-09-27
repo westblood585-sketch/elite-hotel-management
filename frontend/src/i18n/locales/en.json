@@ -1,0 +1,68 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "actions": "Actions",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "housekeeping": {
+    "title": "Housekeeping",
+    "tasks": "Tasks",
+    "analytics": "Analytics",
+    "newTask": "New Task",
+    "assignTask": "Assign Task",
+    "inspectTask": "Inspect Task",
+    "status": {
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "verified": "Verified"
+    },
+    "priority": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "columns": {
+      "room": "Room",
+      "type": "Type",
+      "status": "Status",
+      "priority": "Priority",
+      "assignedTo": "Assigned To",
+      "dueDate": "Due Date"
+    },
+    "tabs": {
+      "list": "List View",
+      "kanban": "Kanban Board",
+      "analytics": "Analytics"
+    },
+    "modals": {
+      "taskDetails": "Task Details",
+      "inspection": "Task Inspection",
+      "uploadPhotos": "Upload Photos"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "rooms": "Rooms",
+    "reservations": "Reservations",
+    "guests": "Guests",
+    "housekeeping": "Housekeeping",
+    "billing": "Billing",
+    "payments": "Payments",
+    "users": "Users",
+    "settings": "Settings"
+  }
+}

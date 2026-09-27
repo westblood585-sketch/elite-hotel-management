@@ -1,0 +1,212 @@
+
+> frontend@0.0.0 lint
+> eslint .
+
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\Hooks\useRealtimeUpdates.ts
+  46:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  54:61  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  88:70  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\Hooks\useWebRTC.ts
+  146:21  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  223:21  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  252:21  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  279:21  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  301:21  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  334:6   warning  React Hook useEffect has a missing dependency: 'closePeerConnection'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\Hooks\useWebSocket.ts
+   33:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\Chat\ChatMessage.tsx
+  5:10  error  'cn' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\Profile\AvatarUpload.tsx
+   94:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\Profile\ChangePassword.tsx
+  88:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\Profile\ProfileInformation.tsx
+  82:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\admin\BillingDetailModal.tsx
+   76:14  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+   89:14  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+  107:14  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\admin\GuestFormModal.tsx
+   84:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  125:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  223:85  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\admin\ReservationFormModal.tsx
+   2:29  error  'CreditCard' is defined but never used    @typescript-eslint/no-unused-vars
+  47:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\admin\UserFormModal.tsx
+   41:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   91:83  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  108:89  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\admin\billing\DisputeModal.tsx
+  34:6  warning  React Hook useEffect has a missing dependency: 'loadDisputes'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\common\ChatbotWidget.tsx
+   6:46  error    'useCallback' is defined but never used                                                                                                                  @typescript-eslint/no-unused-vars
+  18:25  error    'IConversation' is defined but never used                                                                                                                @typescript-eslint/no-unused-vars
+  33:5   error    'resetUnreadCount' is assigned a value but never used                                                                                                    @typescript-eslint/no-unused-vars
+  55:6   warning  React Hook useEffect has missing dependencies: 'currentConversation' and 'loadOrCreateConversation'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\common\GlobalCallManager.tsx
+  6:38  error  'useCallback' is defined but never used  @typescript-eslint/no-unused-vars
+  7:10  error  'useSelector' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\common\VideoChat\VideoChat.tsx
+    7:19  error    'Phone' is defined but never used                                                                                                @typescript-eslint/no-unused-vars
+   64:34  error    Unexpected any. Specify a different type                                                                                         @typescript-eslint/no-explicit-any
+   78:28  error    Unexpected any. Specify a different type                                                                                         @typescript-eslint/no-explicit-any
+   81:25  error    Unexpected any. Specify a different type                                                                                         @typescript-eslint/no-explicit-any
+  120:6   warning  React Hook useEffect has missing dependencies: 'acceptCall' and 'callState'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  181:21  error    Unexpected any. Specify a different type                                                                                         @typescript-eslint/no-explicit-any
+  220:21  error    Unexpected any. Specify a different type                                                                                         @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\sections\SearchResult\SearchResult.tsx
+  427:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\components\ui\badge.tsx
+  46:17  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\contexts\ChatbotContext.tsx
+  107:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\contexts\SocketContext.tsx
+  78:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Billing.tsx
+  56:19  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  66:6   warning  React Hook useEffect has a missing dependency: 'loadBillings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  94:9   error    'endPage' is never reassigned. Use 'const' instead                                                               prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\CommunicationsDashboard.tsx
+  29:6  warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Guests.tsx
+   60:19  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+   70:6   warning  React Hook useEffect has a missing dependency: 'loadGuests'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   84:19  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+   95:19  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+  105:19  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+  146:9   error    'endPage' is never reassigned. Use 'const' instead                                                             prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\HousekeeperDashboard\index.tsx
+  137:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Housekeeping.tsx
+   2:24  error    'Filter' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   6:8   error    'TaskFilters' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+  43:10  error    'error' is assigned a value but never used                                                                    @typescript-eslint/no-unused-vars
+  78:6   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Payments.tsx
+  42:6   warning  React Hook useEffect has a missing dependency: 'loadPayments'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  59:19  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  96:9   error    'endPage' is never reassigned. Use 'const' instead                                                               prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Profile.tsx
+  14:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\ReceptionistDashboard\index.tsx
+  116:82  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  157:83  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  219:75  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  261:72  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Reservations.tsx
+   66:19  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   76:6   warning  React Hook useEffect has a missing dependency: 'loadReservations'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   83:19  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  101:19  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  182:9   error    'endPage' is never reassigned. Use 'const' instead                                                                   prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\RoomDetail.tsx
+  22:6   warning  React Hook useEffect has a missing dependency: 'loadRoom'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  30:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  48:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\RoomForm.tsx
+    4:30  error    'Room' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   46:6   warning  React Hook useEffect has a missing dependency: 'loadRoom'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   69:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  139:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  217:85  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Rooms.tsx
+   60:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+   70:6   warning  React Hook useEffect has a missing dependency: 'loadRooms'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   84:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  101:9   error    'endPage' is never reassigned. Use 'const' instead                                                            prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\Users.tsx
+   61:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+   71:6   warning  React Hook useEffect has a missing dependency: 'loadUsers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   85:19  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+  131:9   error    'endPage' is never reassigned. Use 'const' instead                                                            prefer-const
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Admin\WorkflowBuilder.tsx
+  43:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  65:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\Booking.tsx
+   43:68  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   65:16  error  'err' is defined but never used           @typescript-eslint/no-unused-vars
+  104:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  111:47  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\pages\BookingFlow.tsx
+    3:27  error  'Stripe' is defined but never used                 @typescript-eslint/no-unused-vars
+   38:15  error  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  158:10  error  'paymentOrder' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  158:52  error  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  276:41  error  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  289:26  error  'response' is defined but never used               @typescript-eslint/no-unused-vars
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\services\adminApi.ts
+  114:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\services\communicationApi.ts
+  243:28  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\services\dashboardApi.ts
+  129:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  130:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  131:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  132:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  133:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  148:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  149:12  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  150:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\services\guestApi.ts
+  44:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\types\communication.types.ts
+  252:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+E:\Web Development Projects\REAL PROJECTS\Elite-Hotel\frontend\src\utils\exportData.ts
+   8:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  18:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  37:62  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  39:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  40:4   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  42:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 122 problems (108 errors, 14 warnings)
+  6 errors and 0 warnings potentially fixable with the `--fix` option.
+
